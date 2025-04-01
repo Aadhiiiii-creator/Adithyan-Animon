@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio with form
+    </title>
+
+</head>
+
+<body>
+    <header>
+
+        <h1>
+            Adithyan Animon.
+        </h1>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#skills">Skill's</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <section id="Introduction">
+
+            <article>
+
+                <header>
+
+                    <h2>A bit About Mee....</h2>
+
+                </header>
+
+                <p>
+                    I am Adithyan Animon. I am born and raised from Kothamangalam, Ernakulam. I like to read books on
+                    self-improvement and money management skills. Then i have bben playing Badmintion professionally
+                    nearly for a decade and I love taking care for my pet's there is a Dogc a Cat, some African
+                    love-birds and some fishes too.
+                </p>
+
+
+            </article>
+
+        </section>
+
+
+        <section id="Projects">
+
+            <article>
+
+                <header>
+                    <h2>Some of my projects.</h2>
+
+                    <h3>HTML Introduction class</h3>
+                    <p>This project was a html bases project this was conducted on our eairly starting od our class this
+                        project
+                        was included with htmldoc!, head, tittle, body etc.. then there was also image and link's</p>
+
+                    <h3>Collage Time Table</h3>
+                    <p>This project was a Homework from my Entri tutor Roshni. The project was to do 'table' and she
+                        gived
+                        us an
+                        time table model picture on 24 of march and the submition date was in 26 of march. Then this
+                        project
+                        was
+                        included with rowspan and colspan. </p>
+
+                    <h3>Student Registration</h3>
+                    <p>This was also a another project that was done in our section following through our mentor, this
+                        project
+                        was about a 'FORM' in this section we were thought about label, input, select etc.....this class
+                        was
+                        conducted on 26 march. </p>
+
+                </header>
+
+            </article>
+
+        </section>
+
+
+        <section id="skills">
+
+            <article>
+
+                <header>
+                    <h2>My Skill's</h2>
+                </header>
+
+                <ul>
+
+                    <li>HTML(Hypertext Markup Language)</li>
+                    <li>CSS(Cascading Style Sheets)</li>
+                    <li>PYTHON</li>
+                    <li>MYSQL</li>
+                    <li>JavaScript</li>
+                    <li>JAVA</li>
+
+                </ul>
+
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+
+        <section id="contact">
+            <article>
+
+                <header>
+                    <h2>Contact Me</h2>
+                </header>
+
+                <form action="" method="post" autocomplete="on" title="form to contact me">
+
+
+
+                    <h3>Contact Form</h3>
+
+                    <label for="uname"> Name :</label>
+                    <input type="text" id="name" name="uname" required placeholder="Enter your Name">
+                    <br><br><br>
+
+                    <label for="email">E-mail :</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your mail id" required>
+                    <br><br><br>
+
+                    <label for="pass">Password :</label>
+                    <input type="password" id="pass" name="name" placeholder="Enter your Password" required>
+                    <br><br><br>
+
+                    <label for="phone">Phone Number :</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your Phone Number" required
+                        pattern="[0-9]{10}">
+                    <br><br><br>
+
+                    <label for="dob">Date of Birth :</label>
+                    <input type="date" id="dob" name="dob" required placeholder="Enter your DOB">
+                    <br><br><br>
+
+                    <label for="gentder">Gender :</label>
+                    <select name="gender" id="gender" required>
+
+                        <option value="">Select your Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="others">Other's</option>
+
+                    </select>
+                    <br><br><br>
+
+                    <fieldset>
+
+                        <legend>Academic Info</legend>
+                        <p>Provide your Academic carier</p>
+
+                        <label for="degree">Degree :</label>
+                        <select name="degree" id="degree">
+
+                            <optgroup label="undergraduate">
+
+                                <option value="bachelors">bachelor's</option>
+
+                            <optgroup label="bachelors">
+
+                                <option value="BCA">BCA</option>
+                                <option value="BBA">MCA</option>
+
+                            </optgroup>
+
+                            </optgroup>
+
+                            <optgroup label="postgraduate">
+
+                                <option value="master">Master's</option>
+                                <option value="phd">Doctorate</option>
+
+                            </optgroup>
+
+                        </select>
+                        <br><br><br>
+
+                        <label for="major">Major :</label>
+                        <input type="text" id="major" name="major" placeholder="Enter your Major in">
+                        <br><br><br>
+
+                        <label for="gpa">GPA :</label>
+                        <input type="number" id="gpa" name="gpa" placeholder="Enter your GPA" min="0'01" max="1"
+                            step="0.05" required>
+
+                    </fieldset>
+
+                    <section>
+
+                        <p>Please select additional option :</p>
+                        <label>
+                            <input type="checkbox" name="newsletter" checked>
+                            Please susbscribe
+                        </label>
+
+                    </section>
+
+                    <section>
+
+
+                        <p>Select your housing preference:</p>
+                        <Label>
+                            <input type="radio" name="hostel" value="On-campus"> On-campus housing
+                        </label>
+                        <label>
+                            <input type="radio" name="hostal" value="off campus">Off-campus housing
+                        </label>
+
+                    </section>
+
+                    <label for="additional - info">Additional Information :</label>
+                    <textarea name="additional - info" id="additional - info" rows="5"
+                        placeholder="Enter your Additional Info"></textarea>
+
+                    <p>Click the button below to complete :</p>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+
+
+                </form>
+
+            </article>
+
+        </section>
+    </footer>
+
+
+
+</body>
+
+</html>
